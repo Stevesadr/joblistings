@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const INITIAL_VALUE = ["Junior", "React"];
+const INITIAL_VALUE = [];
 
 const filterItem = createSlice({
   name: "filter",
