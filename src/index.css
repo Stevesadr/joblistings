@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@theme {
+  --color-light: #5ba4a4;
+  --color-minlight: #effafa;
+  --color-normallight: #e0f9f9;
+  --color-darklight: #7b8e8e;
+  --color-verydarklight: #2c3a3a;
+
+  --font-leagueSpartan: "LeagueSpartan";
+}
+@font-face {
+  font-family: LeagueSpartan;
+  src: url("./assets/fonts/League_Spartan/LeagueSpartan-VariableFont_wght.ttf");
+}
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
