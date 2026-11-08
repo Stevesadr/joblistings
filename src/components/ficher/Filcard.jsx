@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import remove from "../../assets/images/icon-remove.svg";
+import remove from "/images/icon-remove.svg";
 import { removeItems } from "../../../redux/feature/filterslice";
 
 const Filcard = (props) => {

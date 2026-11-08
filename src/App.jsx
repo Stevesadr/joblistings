@@ -1,6 +1,6 @@
 import jsonData from "../data.json";
-import mobilebackgroundImage from "./assets/images/bg-header-mobile.svg";
-import desktopbackgroundImage from "./assets/images/bg-header-desktop.svg";
+import mobilebackgroundImage from "/images/bg-header-mobile.svg";
+import desktopbackgroundImage from "/images/bg-header-desktop.svg";
 import { useEffect, useState } from "react";
 import Card from "./components/Card";
 import { useSelector, useDispatch } from "react-redux";
